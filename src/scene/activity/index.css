@@ -1,0 +1,38 @@
+.activity-item-image {
+    margin-bottom: 20px
+}
+
+.activity-item-audio {
+    border: 1px solid #D6DAE1;
+    margin-bottom: 20px
+}
+
+.activity-item-video {
+    border: 1px solid #D6DAE1;
+    margin-bottom: 20px
+}
+
+.activity-item-pdf {
+    width: 100%;
+    height: 240px;
+    object-fit: cover
+}
+
+.work-preview-image-view header{
+    color: #ADB3BC;
+    padding: 30px;
+}
+
+.work-preview-image-view header span{
+    background: #E6E8ED;
+    color: #373D47;
+    padding: 3px 8px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'proxima_novabold'
+}
+
+.activity-item-line {
+    margin-left: -60px;
+    margin-right: -60px;
+}
