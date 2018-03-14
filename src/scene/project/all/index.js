@@ -256,7 +256,8 @@ class AllProjects extends Component {
                                                             onLoad={(project) => _this.onLoadProject(index, project)}
                                                             onDelete={(project) => _this.setState({isDelete: true, deleteProject: project})}
                                                             isShared={_this.state.tabState == 'Shared Projects'}
-                                                            handle={_this.props}/>
+                                                            handle={_this.props}
+                                                        />
                                                 )
                                             })
                                         }    
